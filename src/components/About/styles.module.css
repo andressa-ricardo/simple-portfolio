@@ -1,0 +1,43 @@
+.about {
+    background-color: #bc3838;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    color: white;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h2:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #ffffff;
+    width: 15%;
+    left: 385px;
+    top: 108%;
+    } 
+
+.aboutMe p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.iconSvg{
+    height: 18rem;
+}
+
+.textsInP{
+    
+}
