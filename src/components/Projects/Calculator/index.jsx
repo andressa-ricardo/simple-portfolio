@@ -1,17 +1,15 @@
 import { calc } from "./styles.module.css";
-// import { Link } from 'react-router-dom';
+import calculadora from '@/assets/calculadora.png'
 export function Calculator() {
   return (
-    
     <>
       <div>
         <div className={calc}>
-          <img src="./src/assets/calculadora.png" alt="" />
+          <img src={calculadora} alt="" />
           <p>Calculadora</p>
-          {/* <Link to={"https://github.com/andressa-ricardo/calculator"}>
+          <a href="https://andressa-ricardo.github.io/calculator/" target="_blank" rel="noreferrer">
             <button>Ver projeto</button>
-          </Link> */}
-          <link rel="stylesheet" href="" />
+          </a>
         </div>
       </div>
     </>

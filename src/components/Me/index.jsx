@@ -1,17 +1,17 @@
 import { infosHome, pDev } from "./styles.module.css";
+import minhaFoto from '@/assets/me.png'
 
 export function Me() {
   return (
-    <>
       <main>
         <div className={infosHome}>
+        <img src={minhaFoto}  alt="logo-image"/>
+
           <h1>Andressa Ricardo</h1>
           <div>
           <p className={pDev}>Desenvolvedora full-stack júnior</p>
           </div>
         </div>
-        {/* <img src="./src/assets/me.png" className={myPic} alt="logo-image"/> */}
       </main>
-    </>
   );
 }

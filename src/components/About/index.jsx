@@ -1,4 +1,6 @@
 import { about, aboutMe, iconSvg, textsInP } from "./styles.module.css";
+import svg from "@/assets/icon.svg";
+
 export function About() {
   return (
     <>
@@ -7,22 +9,24 @@ export function About() {
           <h2>SOBRE MIM</h2>
           <div className={textsInP}>
             <p>
-              Olá! Me chamo Andressa, tenho 18 anos e há uns meses<br /> venho 
-              estudando programação com o intuito de me tornar <br /> desenvolvedora
-              full-stack.
+              Olá! Me chamo Andressa, tenho 18 anos e há uns meses
+              <br /> venho estudando programação com o intuito de me tornar{" "}
+              <br /> desenvolvedora full-stack.
             </p>
             <p>
-              No momento, obtenho conhecimentos em: <br />HTML, CSS, Bootstrap, Sass,
-              e o intermediário de <br />JavaScript, Node.Js e React.
+              No momento, obtenho conhecimentos em: <br />
+              HTML, CSS, Bootstrap, Sass, e o intermediário de <br />
+              JavaScript, Node.Js e React.
             </p>
             <p>
               {" "}
-              E também faço automações simples com Python. Além de <br />também estar
-              começando a embarcar em MySql <br />e criações/consumação de APIs.
+              E também faço automações simples com Python. Além de <br />
+              também estar começando a embarcar em MySql <br />e
+              criações/consumação de APIs.
             </p>
           </div>
         </div>
-        <img src="./src/assets/icon.svg" alt="" className={iconSvg} />
+        <img src={svg} alt="" className={iconSvg} />
       </div>
     </>
   );
