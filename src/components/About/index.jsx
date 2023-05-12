@@ -1,4 +1,4 @@
-import { about, aboutMe, iconSvg, textsInP } from "./styles.module.css";
+import { about, aboutMe, iconSvg } from "./styles.module.css";
 import svg from "@/assets/icon.svg";
 
 export function About() {
@@ -7,7 +7,7 @@ export function About() {
       <div className={about}>
         <div className={aboutMe}>
           <h2>SOBRE MIM</h2>
-          <div className={textsInP}>
+          <div>
             <p>
               Olá! Me chamo Andressa, tenho 18 anos e há uns meses
               <br /> venho estudando programação com o intuito de me tornar{" "}
