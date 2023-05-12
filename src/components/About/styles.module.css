@@ -1,10 +1,11 @@
 .about {
     background-color: #bc3838;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 8rem;
+    justify-content: space-evenly;
+    gap: 4rem;
+    padding: 2rem 0;
 }
 
 .aboutMe {
@@ -15,16 +16,28 @@
     color: white;
 }
 
-h2{
+h2 {
     font-size: 1.8rem;
 }
 
-.aboutMe p{
+.aboutMe p {
     font-size: 1.2rem;
     text-align: center;
 }
 
-.iconSvg{
+.iconSvg {
     height: 18rem;
 }
 
+
+@media (max-width: 950px) {
+    .about {
+        flex-direction: column;
+    }
+    .iconSvg{
+        height: 12rem;
+    }
+    .about p {
+        font-size: .95rem;
+    }
+}

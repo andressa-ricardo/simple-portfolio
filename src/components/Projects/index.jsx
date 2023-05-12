@@ -5,7 +5,7 @@ import { Calculator } from "./Calculator";
 export function Projects() {
   return (
     <>
-      <div className={projects}>
+      <div className={projects} id="projeto">
         < h2>Projetos</ h2>
         <div className={projetos}>
           <Calculator></Calculator>

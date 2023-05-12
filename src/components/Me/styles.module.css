@@ -9,7 +9,7 @@ main{
 h1{
     font-weight: 900;
     color: #360909;
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 .infosHome{
@@ -30,7 +30,7 @@ h1{
 }
 
 .infosHome img {
-    height: 17rem;
-    width: 17rem;
+    height: 15rem;
+    width: 15rem;
 
 }
