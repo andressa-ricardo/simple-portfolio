@@ -20,4 +20,16 @@ body{
   right: 40px;
   color: black;
   display: none;
+  cursor: pointer;
+}
+
+.arrow button{
+  border: none;
+  background: none;
+  font-size: 3rem;
+  bottom: 20px;
+  right: 40px;
+  color: black;
+  cursor: pointer;
+  padding: 1rem;
 }

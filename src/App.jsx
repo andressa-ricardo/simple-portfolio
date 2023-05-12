@@ -25,7 +25,9 @@ function App() {
       <Projects></Projects>
       <Footer></Footer>
       <a href="#" className="arrow">
-        <BsFillArrowUpSquareFill></BsFillArrowUpSquareFill>
+        <button>
+          <BsFillArrowUpSquareFill></BsFillArrowUpSquareFill>
+        </button>
       </a>
     </>
   );
