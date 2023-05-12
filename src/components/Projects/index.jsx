@@ -6,7 +6,7 @@ export function Projects() {
   return (
     <>
       <div className={projects} id="projeto">
-        < h2>Projetos</ h2>
+        < h2>Alguns Projetos</ h2>
         <div className={projetos}>
           <Calculator></Calculator>
           <Links></Links>
