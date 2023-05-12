@@ -3,7 +3,7 @@ import svg from "@/assets/icon.svg";
 
 export function About() {
   return (
-    <div className={about}>
+    <div className={about} id="sobre">
       <div className={aboutMe}>
         <h2>SOBRE MIM</h2>
         <div>

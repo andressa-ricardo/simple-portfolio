@@ -9,7 +9,6 @@ nav{
 
 .buttonsNav{
     display: flex;
-    gap: 1.9rem;
 }
 
 .btnNav{
@@ -19,6 +18,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .btnNav:hover{

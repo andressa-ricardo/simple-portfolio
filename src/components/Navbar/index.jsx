@@ -8,12 +8,13 @@ export function Navbar() {
           <a href="#home">
             <button className={btnNav}>Home</button>
           </a>
-          <a href="#projeto">
-            <button className={btnNav}>Projetos</button>
-          </a>
           <a href="#sobre">
             <button className={btnNav}>Sobre</button>
           </a>
+          <a href="#projeto">
+            <button className={btnNav}>Projetos</button>
+          </a>
+
           <a href="#contato">
             <button className={btnNav}>Contato</button>
           </a>

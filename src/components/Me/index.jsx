@@ -4,7 +4,7 @@ import minhaFoto from '@/assets/me.png'
 export function Me() {
   return (
       <main>
-        <div className={infosHome}>
+        <div className={infosHome} id="home">
         <img src={minhaFoto}  alt="logo-image"/>
 
           <h1>Andressa Ricardo</h1>

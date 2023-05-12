@@ -6,7 +6,7 @@ import email from "./imgs/email.png";
 export function Footer() {
   return (
     <>
-      <div className={footer}>
+      <div className={footer} id="contato">
         <div>
           <a href="https://www.linkedin.com/in/andressa-ricardo/" target="_blank" rel="noreferrer">
             <button>
